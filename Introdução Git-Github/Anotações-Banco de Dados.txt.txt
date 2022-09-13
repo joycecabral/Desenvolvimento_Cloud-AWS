@@ -1,0 +1,42 @@
+Sistemas de Bancos de Dados (SGBDs)
+construção do SGBDs -> inserção de ddos -> SSD
+Manipulação do SGBDs -> recuperação e relatórios -> QUERY
+Compartilhamento -> acesso e simultaneidade -> GERENCIAMENTO
+
+User-> Application do programs/Queries-> Software to process Queries-> Software to acess Stored Data.
+
+Metadados = Fornecem uma descrição concissa dos dados contidos no Banco de Dados.
+SGBDs consultam os metadados após compilar as Queries
+
+Por padrão o BD realiza o bloqueio e a liberaçção das tabelas.
+
+##Modelos de Dados
+Modelo de rede -> Links: Ponteiro entre nós - Relacionamento N:M/ cliente e conta
+Modelo Hierárquico -> Registros:Links e Dados, TAD tree - Raiz/ BDDBase COBOL Fox Pro
+Modelo relacional -> Base de Álgebra Relacional - IBM SQL/DS - 1970
+8MB <_____________________________________________> TeraBytes
+                        1980
+
+LDD = Linguagem de Definição de Dados
+Tradução -> Mecanismo de execução -> Gerenciador 
+
+LMD = Linguagem de Definição de Dados
+altera e extrai informações -> agrupa para executar
+
+Starage & Buffer
+Gerenciador de armazernamento = Trazer as informações do HD para a memoria RAM ao contrario do Buffer.
+
+Paralelismo = Múltiplos processadores operando;
+Big Data = Processamento paralelo de dados;
+Cloud = Nuvem - disponibilidade sob demanda de recursos.
+
+##HPC = High Performance Computing
+1. Nós de processamento;
+2. Sistemas de arquivos paralelos sem persistência;
+3. Modelos: MPI, OpenMP, OpenCL;
+4.Acesso: HFF5 e NetCDF.
+
+##BIG DATA
+1. Process e Storage: nós de processamento;
+2. Sistema de arquivos paralelos persistente;
+3. Modelos: MapReduce, Spark< SGBDs paralelos.
