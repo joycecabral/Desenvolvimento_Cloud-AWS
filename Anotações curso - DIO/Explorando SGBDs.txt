@@ -1,4 +1,4 @@
-SGBD = SISTEMA E GERENCIAMENTO DO DADOS DE DADOS
+SGBD = SISTEMA E GERENCIAMENTO DE DADOS
 
 Aplicações - Abordagem de BD: SQL
 
@@ -8,16 +8,16 @@ Aplicações - Abordagem de BD: SQL
 ##Características principais do SGBDs:
 
 1. Isolamento de programas e dados - Abstração / Através da abstração determina-se a estrtutura dos dados para manipular informações.
-2. Banco de dados - auto descrição / possui uma descrição concisa do Banco de dados dentro do sistema, assim geenciando de maneira otimizada.
+2. Banco de dados - auto descrição / possui uma descrição concisa do Banco de dados dentro do sistema, assim gerenciando de maneira otimizada.
 3. Compartilhamento - compartilhamento de dados com diversos grupos / controle de concorrência - entrada e saida.
-4. Transações Multiuser - Precisam ser executadas que levem o banco de maneira inicial para um estado consistente de maneira otimizada.
+4. Transações Multiuser - Precisam ser executadas para que levem o banco de maneira inicial para um estado consistente e otimizada.
 
 DB Schema --> Estrtura bem definida dos dados sem a utilização das inserção dos dados.
 Metadados & Schema --> são utlizados para criar a natureza descritiva do SGBD.
 Bancos NoSQL não possuem estruturas de descrição como SGBDs, pois já obtêm um documento de sua estrutura em si mesmo.
 
 ##ISOLAMENTO E ABSTRAÇÃO DE DADOS PROGRAM/DATA
-Catálogo = Atrelado a auto-descrição do SGBD / Tabelas de atributos com nome, tipo e onde pertence.
+Catálogo = Atrelado a auto-descrição do SGBD / Tabelas de atributos com nome, tipo e onde pertencem.
 
 ##SUPORTE A MÚTIPLAS VISÕES DOS DADOS (VIEWS)
 Vantagens do SGBDs = Fornecer perspectiva distintas de um mesmo cojunto de dados - VIEWS
@@ -25,9 +25,9 @@ Vantagens do SGBDs = Fornecer perspectiva distintas de um mesmo cojunto de dados
 Temos as Formações de views para agregar informações a partir de 2 tabelas ou mais, o processamento é feito através de uma Query para atribuir retornando uma visão,
 podendo ser uma read-only / visão - apenas leitura.
 
---> Uma Query processa retornando as informações que o usuário está esperando conforme sua ocupação em dados.
+--> Uma Query processa retornando as informações que o usuário deseja conforme sua ocupação em dados.
 
-##COMPARTILHAMENTO DE DADOS E PROCESSAMENTO DE TRANSÇÕES MULTIUSUÁRIOS
+##COMPARTILHAMENTO DE DADOS E PROCESSAMENTO DE TRANSAÇÕES MULTIUSUÁRIOS
 
 1. Concurrency Control = controla o acesso dos usuários através de mecanismos para manter a integração dos dados --> EX: Reservas - impede que dois usuários comprem a mesma vaga.
 2. OLTP = processo simultâneo - responsável por garantir que as ações sejam registrados de maneira organizada --> EX: Garantir uma vaga a cada comprador de uma passagem e assegurar sua vaga.
@@ -50,4 +50,4 @@ DBA --> Administrador do Banco de dados.
 --> São projetadas em árvores.
 
 Recursos de Recovery = Falhas por desastre -> pode ser realizado para recuperação de um banco de dados.
-[Introdução ao Banco de Dados] (https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/EfdP8l5MJvRAmiZFTHypmeQBvVQrq0eWF21fgwJW4mO_qA?rtime=Gvmo1ieY2kg)
+[Introdução ao Banco de Dados] https://academiapme-my.sharepoint.com/:p:/g/personal/renato_dio_me/EfdP8l5MJvRAmiZFTHypmeQBvVQrq0eWF21fgwJW4mO_qA?rtime=Gvmo1ieY2kg
