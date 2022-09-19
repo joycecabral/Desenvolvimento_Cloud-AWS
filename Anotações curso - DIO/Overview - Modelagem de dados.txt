@@ -1,0 +1,62 @@
+MODELAR 
+Esquemas  de circuitos -> Eletrônicos.
+Protótiopos -> Desenvolvimento.
+Plantas baixa -> Construção.
+
+MODELAGEM
+SOFTWARE - DADOS
+COMPUTACIONAL - CONCEITUAL
+PROCESSO DE NEGÓCIO - MATEMÁTICA
+
+MINI-MUNDO                          ALTO NÍVEL                           ESQUEMA                           SGBD
+Delimitando o contexto dos dados -> Requisitos para criação do modelo -> Definindo estrutura relacional -> Implementando/criando o DB.
+
+Periódicos: UML
+1. Nome da classe
+2. Atributos
+3. Métodos
+
+##LINGUAGEM DECLARATIVA
+Como inserir as info no BD ? SQL
+
+CREATE, ALTER, DROP...
+SELECT, INSERT, UPDATE...
+
+##COMANDOS BÁSICOS SQL:
+SHOW DATABASES; -> Visualizar registros.
+CREATE DATABASE nome do arquivo; -> Criar uma query.
+USE nome do arquivo; -> Entrar no arquivo.
+DROP DATABASE nome do arquivo; -> Excluir.
+SHOW TABLES; -> Visualizar Tabelas.
+INSERT INTO -> adicionar informações.
+SELECT * FROM nome da tabela -> Chamar a tabela.
+
+ISSN -> Número Internacional Normalizado para Publicações Seriadas, é um Número serial de oito dígitos usado para identificação única.
+
+##LINGUAGEM SGBD
+SSD -> SDL -> .CSV
+VDL
+
+##RECUPERAÇÃO / INSERÇÃO
+DML BAIXO NÍVEL | PROCEDUAL
+DML ALTO NÍVEL  | NÃO PROCEDUAL
+
+
+##INTERFASES DE SGBDS
+Web Clients          NLI
+App Mobile     Pesquisa Keyword
+Forms         Speech input/output     
+GUI               Interfaces           -   DBA  e  -  Naive
+Voltados para Naive com transações canned -> SQL*Forms.
+
+
+Componentes -> Software <- Modularizado
+
+UTILIDADES - GERENCIAMENTO
+1. Monitoramento
+2. Reorganização de Storage
+3. Backup
+4. Loading
+
+Data dictionary system = Armazena informações de decisão de desing, padrões de utilização, descrição de aplicações.
+

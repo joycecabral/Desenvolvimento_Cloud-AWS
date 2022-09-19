@@ -1,5 +1,5 @@
 Sistemas de Bancos de Dados (SGBDs)
-construção do SGBDs -> inserção de ddos ​​-> SSD
+construção do SGBDs -> inserção de dados ​​-> SSD
 Manipulação do BDs -> recuperação e relatórios -> QUERY
 Compartilhamento -> acesso e simultaneidade -> GERENCIAMENTO
 
